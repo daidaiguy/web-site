@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-blue-100 via-blue-50 to-white">
       <Headers />
       
-      <main className="flex-grow">
+      <main className="flex-grow pt-16">
         <section className="py-32 text-center relative">
           <div className="container mx-auto px-4">
             <div className="mb-10 inline-block title-container">
@@ -20,11 +20,9 @@ export default function Home() {
             <div className="flex justify-center space-x-8 text-lg text-gray-600">
               <span>博客</span>
               <span>·</span>
-              <span>设计</span>
+              <span>创意分享</span>
               <span>·</span>
-              <span>分享</span>
-              <span>·</span>
-              <span>创意</span>
+              <span>探索</span>
             </div>
           </div>
         </section>
