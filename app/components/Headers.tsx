@@ -87,14 +87,7 @@ export default function Headers() {
         </div>
       )}
 
-      {/* 最新更新提示条 */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-600 to-blue-500 text-white py-1.5 text-center text-sm">
-        <div className="container mx-auto">
-          最新：<Link href="#" className="underline hover:text-blue-100 transition-colors">《从设计师到AI训练师的职业转型》</Link>已更新
-        </div>
-      </div>
-
-      <header className={`fixed top-7 left-0 right-0 z-40 transition-all duration-300 ${
+      <header className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         scrolled ? 'bg-white/90 backdrop-blur-sm shadow-md py-3' : 'bg-white/80 py-5'
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -155,7 +148,7 @@ export default function Headers() {
                     aria-label="了解作者信息"
                     aria-current={isActive('/about') ? 'page' : undefined}
                   >
-                    作者介绍
+                    关于我
                     <span className={`absolute bottom-0 left-0 h-0.5 bg-orange-500 transition-all duration-300
                       ${isActive('/about') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
                   </Link>
@@ -272,7 +265,7 @@ export default function Headers() {
                     aria-label="了解作者信息"
                     aria-current={isActive('/about') ? 'page' : undefined}
                   >
-                    作者介绍
+                    关于我
                   </Link>
                 </li>
               </ul>

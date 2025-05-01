@@ -19,8 +19,8 @@ export default function Articles() {
           <div className="container mx-auto px-4 max-w-4xl">
             <article className="mb-16">
               <h2 className="text-3xl font-bold mb-3">
-                <Link href="#" className="hover:text-blue-600 transition-colors">
-                  从设计师到AI训练师的职业转型
+                <Link href="/articles/design-to-ai" className="hover:text-blue-600 transition-colors">
+                  AI学坏了，开始刻意讨好人类了？！
                 </Link>
               </h2>
               <div className="text-sm text-gray-500 mb-6">2024-03-15 金典</div>
@@ -30,7 +30,7 @@ export default function Articles() {
               <div className="flex items-center mb-12">
                 <div className="flex-grow border-t border-gray-200"></div>
                 <Link 
-                  href="#" 
+                  href="/articles/design-to-ai" 
                   className="mx-4 px-6 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors">
                   阅读全文
                 </Link>
@@ -40,7 +40,7 @@ export default function Articles() {
             
             <article className="mb-16">
               <h2 className="text-3xl font-bold mb-3">
-                <Link href="#" className="hover:text-blue-600 transition-colors">
+                <Link href="/articles/design-trends" className="hover:text-blue-600 transition-colors">
                   互联网产品设计的未来趋势
                 </Link>
               </h2>
@@ -51,7 +51,7 @@ export default function Articles() {
               <div className="flex items-center mb-12">
                 <div className="flex-grow border-t border-gray-200"></div>
                 <Link 
-                  href="#" 
+                  href="/articles/design-trends" 
                   className="mx-4 px-6 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors">
                   阅读全文
                 </Link>
@@ -61,18 +61,39 @@ export default function Articles() {
             
             <article>
               <h2 className="text-3xl font-bold mb-3">
-                <Link href="#" className="hover:text-blue-600 transition-colors">
-                  如何利用AI工具提升创作效率
+                <Link href="/articles/ux-principles" className="hover:text-blue-600 transition-colors">
+                  深度解析用户体验设计原则
                 </Link>
               </h2>
-              <div className="text-sm text-gray-500 mb-6">2024-02-20 金典</div>
+              <div className="text-sm text-gray-500 mb-6">2024-02-28 金典</div>
               <p className="text-gray-700 leading-relaxed mb-6">
-                分享我在日常工作中使用的AI工具和方法，帮助内容创作者和设计师提高工作效率。从AI绘图、文本生成到自动化工作流，这些工具正在彻底改变我们的工作方式。
+                深入探讨用户体验设计的核心原则，从心理学角度分析用户行为与交互设计的关系。本文将带你了解用户体验设计的本质，以及如何通过理解用户心理来创造更好的产品体验。
+              </p>
+              <div className="flex items-center mb-12">
+                <div className="flex-grow border-t border-gray-200"></div>
+                <Link 
+                  href="/articles/ux-principles" 
+                  className="mx-4 px-6 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors">
+                  阅读全文
+                </Link>
+                <div className="flex-grow border-t border-gray-200"></div>
+              </div>
+            </article>
+            
+            <article>
+              <h2 className="text-3xl font-bold mb-3">
+                <Link href="/articles/ai-trainer-daily-work" className="hover:text-blue-600 transition-colors">
+                  AI训练师的日常工作与挑战
+                </Link>
+              </h2>
+              <div className="text-sm text-gray-500 mb-6">2024-03-01 金典</div>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                AI训练师需要面对哪些日常挑战？如何有效地对AI模型进行训练和优化？本文将分享AI训练师的工作经验和实用技巧，帮助你理解这个新兴职业的核心价值。
               </p>
               <div className="flex items-center">
                 <div className="flex-grow border-t border-gray-200"></div>
                 <Link 
-                  href="#" 
+                  href="/articles/ai-trainer-daily-work" 
                   className="mx-4 px-6 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors">
                   阅读全文
                 </Link>

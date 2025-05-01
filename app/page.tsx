@@ -18,13 +18,14 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center space-x-8 text-lg text-gray-600">
-              <span>博客</span>
+              <span>热爱</span>
               <span>·</span>
               <span>创意分享</span>
               <span>·</span>
               <span>探索</span>
             </div>
           </div>
+          <div className="absolute -bottom-32 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-blue-50/30 pointer-events-none"></div>
         </section>
         
         <section className="py-16">

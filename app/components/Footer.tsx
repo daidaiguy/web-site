@@ -8,7 +8,7 @@ export default function Footer() {
           {/* 网站标题与介绍 */}
           <div className="col-span-1">
             <div className="text-lg font-bold mb-4 site-title">JINDIAN</div>
-            <p className="text-sm text-gray-500 mb-4">博客·分享·创意</p>
+            <p className="text-sm text-gray-500 mb-4">热爱·分享·创意</p>
             <div className="flex space-x-4">
               <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 transition-colors" aria-label="GitHub主页">
                 <i className="bi bi-github text-xl"></i>
@@ -54,7 +54,7 @@ export default function Footer() {
                     className="hover:text-orange-500 transition-colors inline-block py-1 border-b border-transparent hover:border-orange-500"
                     aria-label="了解作者介绍"
                   >
-                    作者介绍
+                    关于我
                   </Link>
                 </li>
               </ul>
