@@ -133,7 +133,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-200 pt-8">
           <div className="text-center text-sm text-gray-500">
-            <p>&copy; 2024 金典 版权所有</p>
+            <p>&copy; 2025 金典 版权所有</p>
             <p className="mt-2">使用 <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">Next.js</a> 搭建</p>
           </div>
         </div>
