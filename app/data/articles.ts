@@ -31,17 +31,6 @@ export const articlesData: ArticleData[] = [
     altText: 'AI与人类的深度交互'
   },
   {
-    id: 'design-trends',
-    title: '互联网产品设计的未来趋势',
-    date: '2024-03-08',
-    lastUpdated: '2024-03-12',
-    author: '金典',
-    readingTime: '约12分钟',
-    summary: '探讨人工智能、元宇宙和Web3对互联网产品设计的影响，以及设计师如何应对这些技术变革。随着技术的不断发展，产品设计也在发生翻天覆地的变化，本文将探讨这些变革对设计师提出的新要求和创造的新机遇。',
-    coverImage: '/images/article2.jpg',
-    altText: '互联网产品设计的未来趋势'
-  },
-  {
     id: 'ux-principles',
     title: '深度解析用户体验设计原则',
     date: '2024-02-28',
@@ -49,8 +38,19 @@ export const articlesData: ArticleData[] = [
     author: '金典',
     readingTime: '约10分钟',
     summary: '深入探讨用户体验设计的核心原则，从心理学角度分析用户行为与交互设计的关系。本文将带你了解用户体验设计的本质，以及如何通过理解用户心理来创造更好的产品体验。',
-    coverImage: '/images/article3.jpg',
+    coverImage: '/images/fallback.jpg',
     altText: '深度解析用户体验设计原则'
+  },
+  {
+    id: 'deepseek-r1',
+    title: 'Deepseek R1：技术探索与发展方向',
+    date: '2025-02-01',
+    lastUpdated: '2025-02-15',
+    author: '金典',
+    readingTime: '约12分钟',
+    summary: '探讨人工智能、元宇宙和Web3对互联网产品设计的影响，以及设计师如何应对这些技术变革。随着技术的不断发展，产品设计也在发生翻天覆地的变化，本文将探讨这些变革对设计师提出的新要求和创造的新机遇。',
+    coverImage: '/images/r11.png',
+    altText: 'Deepseek R1技术探索与发展方向'
   },
   {
     id: 'ai-trainer-daily-work',
@@ -60,7 +60,7 @@ export const articlesData: ArticleData[] = [
     author: '金典',
     readingTime: '约15分钟',
     summary: '在人工智能早已融入日常生活的今天，当你与智能客服顺畅交流、用手机拍照搜题秒出解析、甚至收到个性化推荐的购物清单时，或许不曾想过：这些 "懂你" 的 AI 背后，有一群默默打造 "AI 大脑" 的幕后功臣 ——AI 训练师。',
-    coverImage: '/images/fallback.jpg',
+    coverImage: '/images/xunlianshi1.png',
     altText: 'AI训练师的工作日常'
   }
 ];

@@ -31,7 +31,7 @@ export default function UXPrinciplesArticle() {
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] mb-10 rounded-xl overflow-hidden shadow-lg">
           <Image 
-            src="/images/article3.jpg"
+            src="/images/fallback.jpg"
             alt="深度解析用户体验设计原则"
             fill
             className="object-cover"
@@ -92,21 +92,21 @@ export default function UXPrinciplesArticle() {
             <Link href="/articles/design-to-ai" className="block group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 group-hover:shadow-lg group-hover:-translate-y-1">
                 <div className="relative h-48">
-                  <Image src="/images/article1.jpg" alt="AI训练师是什么？" fill className="object-cover" />
+                  <Image src="/images/aizhenchnegjiaohu2.png" alt="AI学坏了，开始刻意讨好人类了？！" fill className="object-cover" />
                 </div>
                 <div className="p-6">
-                  <h4 className="text-xl font-bold mb-2 group-hover:text-blue-600">AI训练师是什么？</h4>
+                  <h4 className="text-xl font-bold mb-2 group-hover:text-blue-600">AI学坏了，开始刻意讨好人类了？！</h4>
                   <p className="text-gray-600">从一名设计师到AI训练师的转型之路，分享我在大厂的经历、转型的思考以及对AI行业的展望。在这篇文章中，我将详细讲述我的职业转变过程。</p>
                 </div>
               </div>
             </Link>
-            <Link href="/articles/design-trends" className="block group">
+            <Link href="/articles/deepseek-r1" className="block group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 group-hover:shadow-lg group-hover:-translate-y-1">
                 <div className="relative h-48">
-                  <Image src="/images/article2.jpg" alt="互联网产品设计的未来趋势" fill className="object-cover" />
+                  <Image src="/images/r11.png" alt="Deepseek R1技术探索与发展方向" fill className="object-cover" />
                 </div>
                 <div className="p-6">
-                  <h4 className="text-xl font-bold mb-2 group-hover:text-blue-600">互联网产品设计的未来趋势</h4>
+                  <h4 className="text-xl font-bold mb-2 group-hover:text-blue-600">Deepseek R1：技术探索与发展方向</h4>
                   <p className="text-gray-600">探讨人工智能、元宇宙和Web3对互联网产品设计的影响，以及设计师如何应对这些技术变革。随着技术的不断发展，产品设计也在发生翻天覆地的变化。</p>
                 </div>
               </div>
