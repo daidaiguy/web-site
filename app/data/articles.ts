@@ -54,14 +54,14 @@ export const articlesData: ArticleData[] = [
   },
   {
     id: 'ai-trainer-daily-work',
-    title: 'AI训练师的日常工作与挑战',
+    title: '你了解 AI 训练师吗？',
     date: '2024-03-01',
-    lastUpdated: '2024-03-10',
+    lastUpdated: '2024-04-30',
     author: '金典',
-    readingTime: '约12分钟',
-    summary: 'AI训练师需要面对哪些日常挑战？如何有效地对AI模型进行训练和优化？本文将分享AI训练师的工作经验和实用技巧，帮助你理解这个新兴职业的核心价值。',
+    readingTime: '约15分钟',
+    summary: '在人工智能早已融入日常生活的今天，当你与智能客服顺畅交流、用手机拍照搜题秒出解析、甚至收到个性化推荐的购物清单时，或许不曾想过：这些 "懂你" 的 AI 背后，有一群默默打造 "AI 大脑" 的幕后功臣 ——AI 训练师。',
     coverImage: '/images/fallback.jpg',
-    altText: 'AI训练师的日常工作与挑战'
+    altText: 'AI训练师的工作日常'
   }
 ];
 
