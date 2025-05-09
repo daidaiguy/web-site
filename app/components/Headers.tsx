@@ -104,32 +104,44 @@ export default function Headers() {
 
             {/* 桌面端导航 */}
             <div className="hidden md:flex items-center">
-              <ul className="hidden md:flex items-center space-x-8">
-                <li>
+              <ul className="flex space-x-12 mr-6">
+                <li className="group relative">
                   <Link
                     href="/articles"
-                    className="text-gray-700 hover:text-blue-600 transition duration-200"
-                    aria-label="浏览文章内容"
+                    className={`nav-link relative text-base px-1 py-1 transition-all duration-300 hover:text-orange-500 
+                      ${isActive('/articles') ? 'text-orange-500 font-bold' : 'text-gray-600'}`}
+                    aria-label="浏览所有文章"
+                    aria-current={isActive('/articles') ? 'page' : undefined}
                   >
                     文章
+                    <span className={`absolute bottom-0 left-0 h-0.5 bg-orange-500 transition-all duration-300 
+                      ${isActive('/articles') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
                   </Link>
                 </li>
-                <li>
+                <li className="group relative">
                   <Link
                     href="/about"
-                    className="text-gray-700 hover:text-blue-600 transition duration-200"
-                    aria-label="关于我们"
+                    className={`nav-link relative text-base px-1 py-1 transition-all duration-300 hover:text-orange-500
+                      ${isActive('/about') ? 'text-orange-500 font-bold' : 'text-gray-600'}`}
+                    aria-label="了解作者信息"
+                    aria-current={isActive('/about') ? 'page' : undefined}
                   >
                     关于
+                    <span className={`absolute bottom-0 left-0 h-0.5 bg-orange-500 transition-all duration-300
+                      ${isActive('/about') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
                   </Link>
                 </li>
-                <li>
+                <li className="group relative">
                   <Link
                     href="/contact"
-                    className="text-gray-700 hover:text-blue-600 transition duration-200"
+                    className={`nav-link relative text-base px-1 py-1 transition-all duration-300 hover:text-orange-500
+                      ${isActive('/contact') ? 'text-orange-500 font-bold' : 'text-gray-600'}`}
                     aria-label="联系我们"
+                    aria-current={isActive('/contact') ? 'page' : undefined}
                   >
                     联系
+                    <span className={`absolute bottom-0 left-0 h-0.5 bg-orange-500 transition-all duration-300
+                      ${isActive('/contact') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
                   </Link>
                 </li>
               </ul>
@@ -217,7 +229,7 @@ export default function Headers() {
                     className={`nav-link block py-2 px-3 rounded-md transition-all duration-200 hover:bg-orange-50
                       ${isActive('/about') ? 'text-orange-500 font-bold bg-orange-50' : 'text-gray-600'}`} 
                     onClick={() => setMobileMenuOpen(false)}
-                    aria-label="关于我们"
+                    aria-label="了解作者信息"
                     aria-current={isActive('/about') ? 'page' : undefined}
                   >
                     关于
