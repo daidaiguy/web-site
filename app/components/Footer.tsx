@@ -41,20 +41,20 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link 
-                    href="/creative-sharing" 
-                    className="hover:text-orange-500 transition-colors inline-block py-1 border-b border-transparent hover:border-orange-500"
-                    aria-label="浏览创意分享内容"
-                  >
-                    创意分享
-                  </Link>
-                </li>
-                <li>
-                  <Link 
                     href="/about" 
                     className="hover:text-orange-500 transition-colors inline-block py-1 border-b border-transparent hover:border-orange-500"
                     aria-label="了解作者介绍"
                   >
-                    关于我
+                    关于
+                  </Link>
+                </li>
+                <li>
+                  <Link 
+                    href="/contact" 
+                    className="hover:text-orange-500 transition-colors inline-block py-1 border-b border-transparent hover:border-orange-500"
+                    aria-label="联系我们"
+                  >
+                    联系
                   </Link>
                 </li>
               </ul>
@@ -92,13 +92,6 @@ export default function Footer() {
                 aria-label="查看关于创意思考的所有文章"
               >
                 创意思考
-              </Link>
-              <Link 
-                href="#" 
-                className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs hover:bg-orange-200 hover:text-orange-800 transition-colors transform hover:scale-105"
-                aria-label="查看关于设计原则的所有文章"
-              >
-                设计原则
               </Link>
             </div>
           </div>

@@ -55,8 +55,8 @@ export const articlesData: ArticleData[] = [
   {
     id: 'ai-trainer-daily-work',
     title: '你了解 AI 训练师吗？',
-    date: '2024-03-01',
-    lastUpdated: '2024-04-30',
+    date: '2025-01-23',
+    lastUpdated: '2025-02-21',
     author: '金典',
     readingTime: '约15分钟',
     summary: '在人工智能早已融入日常生活的今天，当你与智能客服顺畅交流、用手机拍照搜题秒出解析、甚至收到个性化推荐的购物清单时，或许不曾想过：这些 "懂你" 的 AI 背后，有一群默默打造 "AI 大脑" 的幕后功臣 ——AI 训练师。',

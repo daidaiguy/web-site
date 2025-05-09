@@ -104,53 +104,32 @@ export default function Headers() {
 
             {/* 桌面端导航 */}
             <div className="hidden md:flex items-center">
-              <ul className="flex space-x-12 mr-6">
+              <ul className="hidden md:flex items-center space-x-8">
                 <li>
-                  <Link 
-                    href="/articles" 
-                    className={`nav-link relative text-base px-1 py-1 transition-all duration-300 hover:text-orange-500 
-                      ${isActive('/articles') ? 'text-orange-500 font-bold' : 'text-gray-600'}`}
-                    aria-label="浏览所有文章"
-                    aria-current={isActive('/articles') ? 'page' : undefined}
+                  <Link
+                    href="/articles"
+                    className="text-gray-700 hover:text-blue-600 transition duration-200"
+                    aria-label="浏览文章内容"
                   >
                     文章
-                    <span className={`absolute bottom-0 left-0 h-0.5 bg-orange-500 transition-all duration-300 
-                      ${isActive('/articles') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
-                  </Link>
-                  <div className="absolute bg-white shadow-md rounded-md p-2 mt-2 hidden group-hover:block">
-                    <Link 
-                      href="/articles/latest" 
-                      className="block py-2 px-4 hover:bg-orange-50 rounded-sm transition-colors"
-                      aria-label="浏览最新发布的文章"
-                    >
-                      最新文章
-                    </Link>
-                  </div>
-                </li>
-                <li>
-                  <Link 
-                    href="/creative-sharing" 
-                    className={`nav-link relative text-base px-1 py-1 transition-all duration-300 hover:text-orange-500
-                      ${isActive('/creative-sharing') ? 'text-orange-500 font-bold' : 'text-gray-600'}`}
-                    aria-label="浏览创意分享内容"
-                    aria-current={isActive('/creative-sharing') ? 'page' : undefined}
-                  >
-                    创意分享
-                    <span className={`absolute bottom-0 left-0 h-0.5 bg-orange-500 transition-all duration-300
-                      ${isActive('/creative-sharing') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
                   </Link>
                 </li>
                 <li>
-                  <Link 
-                    href="/about" 
-                    className={`nav-link relative text-base px-1 py-1 transition-all duration-300 hover:text-orange-500
-                      ${isActive('/about') ? 'text-orange-500 font-bold' : 'text-gray-600'}`}
-                    aria-label="了解作者信息"
-                    aria-current={isActive('/about') ? 'page' : undefined}
+                  <Link
+                    href="/about"
+                    className="text-gray-700 hover:text-blue-600 transition duration-200"
+                    aria-label="关于我们"
                   >
-                    关于我
-                    <span className={`absolute bottom-0 left-0 h-0.5 bg-orange-500 transition-all duration-300
-                      ${isActive('/about') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+                    关于
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="text-gray-700 hover:text-blue-600 transition duration-200"
+                    aria-label="联系我们"
+                  >
+                    联系
                   </Link>
                 </li>
               </ul>
@@ -234,38 +213,26 @@ export default function Headers() {
                 </li>
                 <li>
                   <Link 
-                    href="/articles/latest" 
-                    className={`nav-link block py-2 pl-8 pr-3 text-sm rounded-md transition-all duration-200 hover:bg-orange-50
-                      ${isActive('/articles/latest') ? 'text-orange-500 font-bold bg-orange-50' : 'text-gray-500'}`} 
-                    onClick={() => setMobileMenuOpen(false)}
-                    aria-label="浏览最新发布的文章"
-                    aria-current={isActive('/articles/latest') ? 'page' : undefined}
-                  >
-                    最新文章
-                  </Link>
-                </li>
-                <li>
-                  <Link 
-                    href="/creative-sharing" 
-                    className={`nav-link block py-2 px-3 rounded-md transition-all duration-200 hover:bg-orange-50
-                      ${isActive('/creative-sharing') ? 'text-orange-500 font-bold bg-orange-50' : 'text-gray-600'}`} 
-                    onClick={() => setMobileMenuOpen(false)}
-                    aria-label="浏览创意分享内容"
-                    aria-current={isActive('/creative-sharing') ? 'page' : undefined}
-                  >
-                    创意分享
-                  </Link>
-                </li>
-                <li>
-                  <Link 
                     href="/about" 
                     className={`nav-link block py-2 px-3 rounded-md transition-all duration-200 hover:bg-orange-50
                       ${isActive('/about') ? 'text-orange-500 font-bold bg-orange-50' : 'text-gray-600'}`} 
                     onClick={() => setMobileMenuOpen(false)}
-                    aria-label="了解作者信息"
+                    aria-label="关于我们"
                     aria-current={isActive('/about') ? 'page' : undefined}
                   >
-                    关于我
+                    关于
+                  </Link>
+                </li>
+                <li>
+                  <Link 
+                    href="/contact" 
+                    className={`nav-link block py-2 px-3 rounded-md transition-all duration-200 hover:bg-orange-50
+                      ${isActive('/contact') ? 'text-orange-500 font-bold bg-orange-50' : 'text-gray-600'}`} 
+                    onClick={() => setMobileMenuOpen(false)}
+                    aria-label="联系我们"
+                    aria-current={isActive('/contact') ? 'page' : undefined}
+                  >
+                    联系
                   </Link>
                 </li>
               </ul>
