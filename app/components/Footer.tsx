@@ -102,29 +102,29 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link 
-                  href="#" 
+                  href="/articles/design-to-ai" 
                   className="hover:text-orange-500 transition-colors block py-1 border-l-2 border-transparent hover:border-orange-500 pl-2 hover:pl-3"
-                  aria-label="阅读职业转型相关文章"
+                  aria-label="阅读AI相关文章"
                 >
-                  从设计师到AI训练师的职业转型
+                  AI学坏了，开始刻意讨好人类了？！
                 </Link>
               </li>
               <li>
                 <Link 
-                  href="#" 
+                  href="/articles/ux-principles" 
                   className="hover:text-orange-500 transition-colors block py-1 border-l-2 border-transparent hover:border-orange-500 pl-2 hover:pl-3"
-                  aria-label="阅读用户体验设计相关文章"
+                  aria-label="阅读GPT-4O图像生成相关文章"
                 >
-                  深度解析用户体验设计原则
+                  GPT-4O图像生成能力深度探索
                 </Link>
               </li>
               <li>
                 <Link 
-                  href="#" 
+                  href="/articles/deepseek-r1" 
                   className="hover:text-orange-500 transition-colors block py-1 border-l-2 border-transparent hover:border-orange-500 pl-2 hover:pl-3"
-                  aria-label="阅读AI工具相关文章"
+                  aria-label="阅读Deepseek相关文章"
                 >
-                  如何利用AI工具提升创作效率
+                  Deepseek R1：技术探索与发展方向
                 </Link>
               </li>
             </ul>

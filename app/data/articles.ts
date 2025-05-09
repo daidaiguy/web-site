@@ -32,14 +32,14 @@ export const articlesData: ArticleData[] = [
   },
   {
     id: 'ux-principles',
-    title: '深度解析用户体验设计原则',
-    date: '2024-02-28',
-    lastUpdated: '2024-03-05',
+    title: 'GPT-4O图像生成能力深度探索：技术解析与未来展望',
+    date: '2025-03-29',
+    lastUpdated: '2025-03-30',
     author: '金典',
     readingTime: '约10分钟',
-    summary: '深入探讨用户体验设计的核心原则，从心理学角度分析用户行为与交互设计的关系。本文将带你了解用户体验设计的本质，以及如何通过理解用户心理来创造更好的产品体验。',
-    coverImage: '/images/fallback.jpg',
-    altText: '深度解析用户体验设计原则'
+    summary: 'OpenAI最新发布的GPT-4O模型，其图像生成能力如同视觉创意的飓风般席卷全球，不仅能生成高质量图像，更令人瞩目的是其对图像细节文字的精准处理。本期技术侦探将深入剖析GPT-4O的图像生成能力，探究其表现、优势以及背后隐藏的技术秘密。',
+    coverImage: '/images/4O.png',
+    altText: 'GPT-4O图像生成能力深度探索'
   },
   {
     id: 'deepseek-r1',

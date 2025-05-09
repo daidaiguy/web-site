@@ -59,10 +59,10 @@ export default function About() {
                   
                   <h3 className="text-xl font-bold mb-4">专业技能</h3>
                   <ul className="list-disc pl-5 mb-8 space-y-2">
-                    <li>用户界面和用户体验设计</li>
-                    <li>AI训练和提示工程</li>
+                    <li>AI训练与评测</li>
+                    <li>沟通与培训</li>
                     <li>内容创作与策划</li>
-                    <li>前端开发基础知识</li>
+                    <li>化学相关知识</li>
                   </ul>
                   
                   <h3 className="text-xl font-bold mb-4">关于本站</h3>
