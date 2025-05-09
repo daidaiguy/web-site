@@ -9,7 +9,7 @@ export default function Contact() {
       
       <main className="flex-grow flex items-center justify-center pt-24 pb-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-3xl font-bold mb-12">联系我们</h1>
+          <h1 className="text-3xl font-bold mb-12">联系我</h1>
           
           <div className="relative w-full max-w-3xl mx-auto rounded-xl overflow-hidden shadow-xl">
             <Image 
